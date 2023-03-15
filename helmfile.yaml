@@ -1,0 +1,7 @@
+helmDefaults:
+  kubeContext: "test"
+
+releases:
+  - name: test
+    namespace: monitoring
+    chart: ./test
